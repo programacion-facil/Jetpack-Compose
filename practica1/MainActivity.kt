@@ -17,10 +17,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             AplicacionTestTheme {
                 Greeting("Android")
-                }
             }
         }
     }
+}
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
